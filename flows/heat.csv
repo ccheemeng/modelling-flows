@@ -1,0 +1,10 @@
+nodes,in,out
+electricitySource,,1.0 electricity
+gasSource,,1.0 fire
+steaming,1.0 electricity,0.7 steam; 0.3 cookedRice
+cooling,1.0 cookedRice,1.0 steam
+heatLoss,0.7 steam; 0.2 stoveHeatLoss; 0.05 plateHeatLoss; 0.05 servedHeatLoss,
+stirFrying,1.0 fire,0.5 friedRice; 0.5 stoveHeatLoss
+plating,1.0 friedRice,0.8 eggFriedRice; 0.2 plateHeatLoss
+serving,1.0 eggFriedRice,0.8 served; 0.2 servedHeatLoss
+eating,1.0 served,

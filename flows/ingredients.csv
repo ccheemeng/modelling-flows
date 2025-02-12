@@ -1,0 +1,20 @@
+nodes,in,out
+riceSource,,1.0 rice
+garlicSource,,1.0 garlic
+shallotSource,,1.0 shallot
+oilSource,,1.0 oil
+eggSource,,1.0 egg
+msgSource,,1.0 msg
+soySauceSource,,1.0 soySauce
+pepperSource,,1.0 pepper
+waterSource,,1.0 water
+springOnionSource,,1.0 springOnion
+chilliSource,,1.0 chilli
+steaming,0.5 rice; 0.5 water,0.75 cookedRice; 0.25 steam
+cooling,1.0 cookedRice,0.8 cooledRice; 0.2 steam
+chopping,0.25 garlic; 0.25 shallot; 0.25 springOnion; 0.25 chilli,0.25 choppedGarlic; 0.25 choppedShallot; 0.25 choppedSpringOnion; 0.25 choppedChilli
+stirFrying,0.03 oil; 0.02 choppedGarlic; 0.02 choppedShallot; 0.1 egg; 0.75 cooledRice; 0.02 msg; 0.02 soySauce; 0.02 pepper; 0.02 choppedChilli,1.0 uglyFriedRice
+plating,0.0196 choppedSpringOnion; 0.9804 uglyFriedRice,1.0 eggFriedRice
+serving,1.0 eggFriedRice,1.0 served
+eating,1.0 served,
+evaporation,1.0 steam,
