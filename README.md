@@ -27,7 +27,7 @@ Reproduced from [Conda's user guide](https://conda.io/projects/conda/en/latest/u
 
 4. Install necessary packages:  
     ```shell
-    conda install graphviz ipykernel sqlite3
+    conda install conda-forge::cxx-compiler graphviz ipykernel sqlite
     ```
 
 5. Install Python libraries:
